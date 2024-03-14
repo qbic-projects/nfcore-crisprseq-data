@@ -166,6 +166,6 @@ analysis_percentage_plot_dna <- ggplot(projects_classified_summary_analysis_dna,
   theme_classic() +
   theme(axis.ticks.x = element_blank()) +
   labs(x="", y="Percentage of datasets") +
-  scale_fill_manual(name = "Type of analysis", values = c("#8aeba4", "#e3db9d", "#4abd68", "#a486bf"))
+  scale_fill_manual(name = "Type of analysis", values = c("#8aeba4", "#84b0d1", "#d582f5"))
 analysis_percentage_plot_dna
 ggsave(plot=analysis_percentage_plot_dna, filename = "analysis_percentage_dna-only.png", device="png",width = 20, height = 15, units="cm")
