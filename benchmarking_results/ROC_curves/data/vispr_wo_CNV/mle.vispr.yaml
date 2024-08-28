@@ -1,0 +1,25 @@
+assembly: hg38
+experiment: mle
+fastqc:
+  Brunello_RepA_Dropout_A375:
+  - qc/Brunello_RepA_Dropout_A375_0/SRX5094726_SRR8279891_fastqc/fastqc_data.txt
+  Brunello_RepB_Dropout_A375:
+  - qc/Brunello_RepB_Dropout_A375_0/SRX5095821_SRR8281054_fastqc/fastqc_data.txt
+  Brunello_mod_tracr_RepA_Dropout_A375:
+  - qc/Brunello_mod_tracr_RepA_Dropout_A375_0/SRX5112341_SRR8297836_fastqc/fastqc_data.txt
+  Brunello_mod_tracr_RepB_Dropout_A375:
+  - qc/Brunello_mod_tracr_RepB_Dropout_A375_0/SRX5112342_SRR8297839_fastqc/fastqc_data.txt
+  Brunello_mod_tracr_RepC_Dropout_A375:
+  - qc/Brunello_mod_tracr_RepC_Dropout_A375_0/SRX5112343_SRR8297841_fastqc/fastqc_data.txt
+  Brunello_mod_tracr_pDNA:
+  - qc/Brunello_mod_tracr_pDNA_0/SRX5112499_SRR8297997_fastqc/fastqc_data.txt
+  Brunello_pDNA:
+  - qc/Brunello_pDNA_0/SRX5112500_SRR8297998_fastqc/fastqc_data.txt
+sgrnas:
+  counts: count/all.count_normalized.txt
+  mapstats: count/all.countsummary.txt
+  results: test/mle.sgrna_summary.txt
+species: homo_sapiens
+targets:
+  genes: true
+  results: test/mle.gene_summary.txt

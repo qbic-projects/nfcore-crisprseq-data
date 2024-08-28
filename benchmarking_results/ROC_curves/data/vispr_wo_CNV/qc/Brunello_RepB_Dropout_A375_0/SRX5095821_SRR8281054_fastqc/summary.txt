@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRX5095821_SRR8281054.fastq.gz
+PASS	Per base sequence quality	SRX5095821_SRR8281054.fastq.gz
+WARN	Per tile sequence quality	SRX5095821_SRR8281054.fastq.gz
+PASS	Per sequence quality scores	SRX5095821_SRR8281054.fastq.gz
+FAIL	Per base sequence content	SRX5095821_SRR8281054.fastq.gz
+PASS	Per sequence GC content	SRX5095821_SRR8281054.fastq.gz
+PASS	Per base N content	SRX5095821_SRR8281054.fastq.gz
+PASS	Sequence Length Distribution	SRX5095821_SRR8281054.fastq.gz
+FAIL	Sequence Duplication Levels	SRX5095821_SRR8281054.fastq.gz
+PASS	Overrepresented sequences	SRX5095821_SRR8281054.fastq.gz
+PASS	Adapter Content	SRX5095821_SRR8281054.fastq.gz
