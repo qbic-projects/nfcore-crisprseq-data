@@ -1,0 +1,8 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-median_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+Brunello_RepA_Dropout_A375	79.73748722115855	49.0	50.0	50	18.181818181818183	99121522.0
+Brunello_RepB_Dropout_A375	79.80060013543209	49.0	50.0	50	18.181818181818183	93622486.0
+Brunello_mod_tracr_RepA_Dropout_A375	77.85785501936444	50.0	50.0	50	18.181818181818183	13261470.0
+Brunello_mod_tracr_RepB_Dropout_A375	81.1196607953298	51.0	50.0	50	18.181818181818183	67909372.0
+Brunello_mod_tracr_RepC_Dropout_A375	80.42909502576526	51.0	50.0	50	18.181818181818183	53767239.0
+Brunello_mod_tracr_pDNA	71.96881436424752	50.0	50.0	50	18.181818181818183	9821128.0
+Brunello_pDNA	36.512836339689414	49.0	50.0	50	27.27272727272727	60120685.0

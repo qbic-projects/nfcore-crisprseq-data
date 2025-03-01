@@ -1,0 +1,1620 @@
+INFO  @ Mon, 22 Jul 2024 10:25:46: Parameters: /home-link/qealk01/miniforge3/envs/mageck-vispr/bin/mageck count --output-prefix results/count/all --norm-method median --list-seq /sfs/9/ws/qealk01-benchmarking/april_2024/brunello_target_sequence.txt --fastq /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112500_SRR8297998.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5094726_SRR8279891.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5095821_SRR8281054.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112341_SRR8297836.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112342_SRR8297839.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112343_SRR8297841.fastq.gz /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112499_SRR8297997.fastq.gz --sample-label Brunello_pDNA,Brunello_RepA_Dropout_A375,Brunello_RepB_Dropout_A375,Brunello_mod_tracr_RepA_Dropout_A375,Brunello_mod_tracr_RepB_Dropout_A375,Brunello_mod_tracr_RepC_Dropout_A375,Brunello_mod_tracr_pDNA --count-pair False --trim-5 AUTO 
+INFO  @ Mon, 22 Jul 2024 10:25:46: Welcome to MAGeCK v0.5.9.5. Command: count 
+INFO  @ Mon, 22 Jul 2024 10:25:46: Header line of the library file detected; skip the first line ... 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76443. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76444. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76445. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76446. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76447. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76448. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76449. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76450. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76451. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76452. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76453. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76454. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76455. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76456. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76457. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76458. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76459. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76460. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76461. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76462. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76463. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76464. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76465. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76466. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76467. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76468. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76469. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76470. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76471. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76472. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76473. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76474. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76475. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76476. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76477. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76478. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76479. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76480. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76481. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76482. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76483. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76484. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76485. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76486. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76487. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76488. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76489. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76490. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76491. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76492. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76493. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76494. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76495. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76496. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76497. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76498. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76499. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76500. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76501. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76502. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76503. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76504. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76505. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76506. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76507. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76508. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76509. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76510. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76511. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76512. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76513. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76514. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76515. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76516. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76517. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76518. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76519. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76520. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76521. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76522. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76523. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76524. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76525. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76526. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76527. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76528. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76529. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76530. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76531. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76532. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76533. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76534. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76535. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76536. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76537. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76538. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76539. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76540. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76541. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76542. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76543. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76544. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76545. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76546. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76547. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76548. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76549. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76550. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76551. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76552. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76553. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76554. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76555. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76556. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76557. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76558. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76559. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76560. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76561. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76562. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76563. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76564. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76565. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76566. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76567. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76568. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76569. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76570. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76571. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76572. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76573. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76574. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76575. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76576. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76577. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76578. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76579. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76580. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76581. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76582. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76583. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76584. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76585. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76586. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76587. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76588. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76589. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76590. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76591. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76592. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76593. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76594. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76595. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76596. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76597. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76598. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76599. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76600. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76601. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76602. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76603. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76604. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76605. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76606. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76607. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76608. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76609. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76610. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76611. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76612. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76613. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76614. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76615. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76616. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76617. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76618. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76619. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76620. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76621. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76622. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76623. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76624. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76625. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76626. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76627. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76628. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76629. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76630. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76631. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76632. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76633. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76634. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76635. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76636. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76637. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76638. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76639. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76640. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76641. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76642. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76643. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76644. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76645. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76646. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76647. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76648. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76649. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76650. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76651. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76652. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76653. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76654. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76655. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76656. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76657. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76658. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76659. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76660. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76661. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76662. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76663. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76664. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76665. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76666. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76667. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76668. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76669. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76670. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76671. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76672. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76673. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76674. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76675. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76676. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76677. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76678. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76679. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76680. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76681. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76682. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76683. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76684. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76685. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76686. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76687. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76688. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76689. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76690. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76691. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76692. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76693. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76694. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76695. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76696. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76697. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76698. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76699. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76700. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76701. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76702. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76703. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76704. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76705. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76706. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76707. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76708. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76709. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76710. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76711. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76712. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76713. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76714. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76715. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76716. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76717. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76718. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76719. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76720. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76721. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76722. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76723. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76724. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76725. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76726. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76727. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76728. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76729. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76730. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76731. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76732. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76733. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76734. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76735. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76736. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76737. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76738. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76739. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76740. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76741. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76742. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76743. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76744. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76745. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76746. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76747. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76748. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76749. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76750. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76751. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76752. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76753. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76754. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76755. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76756. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76757. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76758. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76759. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76760. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76761. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76762. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76763. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76764. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76765. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76766. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76767. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76768. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76769. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76770. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76771. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76772. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76773. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76774. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76775. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76776. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76777. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76778. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76779. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76780. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76781. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76782. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76783. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76784. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76785. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76786. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76787. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76788. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76789. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76790. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76791. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76792. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76793. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76794. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76795. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76796. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76797. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76798. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76799. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76800. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76801. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76802. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76803. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76804. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76805. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76806. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76807. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76808. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76809. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76810. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76811. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76812. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76813. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76814. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76815. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76816. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76817. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76818. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76819. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76820. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76821. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76822. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76823. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76824. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76825. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76826. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76827. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76828. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76829. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76830. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76831. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76832. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76833. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76834. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76835. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76836. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76837. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76838. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76839. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76840. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76841. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76842. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76843. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76844. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76845. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76846. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76847. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76848. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76849. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76850. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76851. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76852. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76853. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76854. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76855. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76856. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76857. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76858. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76859. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76860. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76861. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76862. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76863. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76864. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76865. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76866. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76867. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76868. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76869. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76870. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76871. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76872. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76873. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76874. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76875. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76876. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76877. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76878. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76879. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76880. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76881. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76882. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76883. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76884. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76885. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76886. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76887. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76888. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76889. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76890. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76891. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76892. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76893. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76894. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76895. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76896. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76897. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76898. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76899. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76900. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76901. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76902. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76903. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76904. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76905. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76906. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76907. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76908. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76909. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76910. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76911. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76912. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76913. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76914. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76915. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76916. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76917. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76918. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76919. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76920. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76921. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76922. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76923. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76924. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76925. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76926. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76927. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76928. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76929. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76930. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76931. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76932. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76933. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76934. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76935. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76936. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76937. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76938. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76939. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76940. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76941. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76942. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76943. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76944. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76945. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76946. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76947. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76948. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76949. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76950. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76951. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76952. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76953. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76954. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76955. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76956. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76957. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76958. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76959. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76960. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76961. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76962. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76963. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76964. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76965. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76966. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76967. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76968. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76969. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76970. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76971. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76972. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76973. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76974. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76975. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76976. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76977. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76978. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76979. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76980. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76981. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76982. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76983. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76984. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76985. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76986. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76987. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76988. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76989. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76990. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76991. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76992. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76993. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76994. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76995. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76996. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76997. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76998. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 76999. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77000. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77001. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77002. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77003. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77004. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77005. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77006. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77007. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77008. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77009. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77010. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77011. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77012. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77013. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77014. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77015. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77016. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77017. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77018. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77019. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77020. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77021. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77022. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77023. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77024. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77025. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77026. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77027. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77028. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77029. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77030. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77031. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77032. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77033. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77034. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77035. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77036. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77037. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77038. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77039. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77040. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77041. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77042. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77043. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77044. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77045. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77046. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77047. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77048. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77049. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77050. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77051. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77052. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77053. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77054. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77055. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77056. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77057. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77058. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77059. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77060. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77061. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77062. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77063. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77064. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77065. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77066. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77067. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77068. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77069. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77070. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77071. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77072. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77073. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77074. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77075. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77076. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77077. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77078. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77079. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77080. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77081. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77082. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77083. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77084. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77085. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77086. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77087. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77088. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77089. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77090. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77091. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77092. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77093. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77094. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77095. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77096. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77097. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77098. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77099. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77100. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77101. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77102. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77103. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77104. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77105. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77106. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77107. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77108. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77109. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77110. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77111. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77112. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77113. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77114. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77115. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77116. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77117. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77118. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77119. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77120. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77121. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77122. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77123. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77124. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77125. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77126. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77127. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77128. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77129. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77130. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77131. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77132. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77133. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77134. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77135. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77136. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77137. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77138. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77139. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77140. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77141. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77142. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77143. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77144. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77145. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77146. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77147. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77148. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77149. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77150. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77151. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77152. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77153. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77154. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77155. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77156. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77157. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77158. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77159. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77160. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77161. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77162. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77163. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77164. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77165. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77166. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77167. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77168. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77169. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77170. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77171. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77172. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77173. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77174. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77175. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77176. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77177. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77178. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77179. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77180. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77181. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77182. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77183. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77184. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77185. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77186. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77187. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77188. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77189. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77190. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77191. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77192. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77193. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77194. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77195. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77196. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77197. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77198. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77199. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77200. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77201. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77202. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77203. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77204. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77205. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77206. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77207. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77208. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77209. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77210. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77211. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77212. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77213. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77214. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77215. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77216. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77217. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77218. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77219. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77220. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77221. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77222. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77223. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77224. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77225. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77226. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77227. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77228. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77229. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77230. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77231. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77232. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77233. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77234. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77235. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77236. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77237. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77238. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77239. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77240. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77241. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77242. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77243. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77244. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77245. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77246. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77247. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77248. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77249. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77250. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77251. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77252. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77253. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77254. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77255. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77256. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77257. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77258. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77259. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77260. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77261. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77262. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77263. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77264. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77265. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77266. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77267. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77268. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77269. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77270. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77271. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77272. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77273. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77274. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77275. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77276. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77277. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77278. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77279. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77280. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77281. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77282. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77283. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77284. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77285. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77286. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77287. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77288. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77289. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77290. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77291. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77292. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77293. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77294. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77295. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77296. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77297. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77298. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77299. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77300. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77301. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77302. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77303. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77304. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77305. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77306. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77307. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77308. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77309. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77310. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77311. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77312. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77313. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77314. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77315. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77316. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77317. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77318. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77319. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77320. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77321. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77322. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77323. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77324. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77325. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77326. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77327. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77328. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77329. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77330. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77331. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77332. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77333. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77334. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77335. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77336. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77337. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77338. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77339. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77340. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77341. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77342. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77343. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77344. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77345. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77346. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77347. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77348. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77349. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77350. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77351. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77352. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77353. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77354. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77355. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77356. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77357. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77358. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77359. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77360. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77361. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77362. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77363. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77364. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77365. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77366. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77367. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77368. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77369. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77370. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77371. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77372. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77373. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77374. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77375. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77376. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77377. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77378. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77379. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77380. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77381. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77382. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77383. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77384. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77385. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77386. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77387. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77388. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77389. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77390. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77391. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77392. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77393. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77394. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77395. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77396. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77397. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77398. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77399. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77400. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77401. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77402. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77403. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77404. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77405. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77406. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77407. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77408. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77409. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77410. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77411. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77412. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77413. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77414. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77415. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77416. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77417. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77418. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77419. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77420. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77421. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77422. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77423. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77424. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77425. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77426. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77427. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77428. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77429. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77430. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77431. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77432. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77433. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77434. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77435. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77436. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77437. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77438. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77439. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77440. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77441. Skip this record. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: Not enough field in line 77442. Skip this record. 
+INFO  @ Mon, 22 Jul 2024 10:25:47: Loading 76441 predefined sgRNAs. 
+WARNING @ Mon, 22 Jul 2024 10:25:47: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Mon, 22 Jul 2024 10:25:47: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112500_SRR8297998.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:25:47: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112500_SRR8297998.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:25:47: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:25:47: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 10:25:49: Read length:50 
+INFO  @ Mon, 22 Jul 2024 10:25:49: Total tested reads: 100001, mapped: 64298(0.6429735702642974) 
+INFO  @ Mon, 22 Jul 2024 10:25:49: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 24	9031	0.14045537963855798 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 25	8697	0.13526081682167407 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 23	8430	0.13110827708482378 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 29	7938	0.12345640610905471 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 28	7892	0.12274098727798688 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 26	7717	0.12001928520327226 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 22	7321	0.1138604622227752 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 30	6399	0.09952098043485023 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 27	435	0.006765373728576316 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 21	384	0.005972191981088059 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 20	45	0.0006998662477837569 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 19	7	0.0001088680829885844 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 18	1	1.5552583284083488e-05 
+INFO  @ Mon, 22 Jul 2024 10:25:49: 15	1	1.5552583284083488e-05 
+INFO  @ Mon, 22 Jul 2024 10:25:49: Auto determination of trim5 results: 24,25,23,29,28,26 
+INFO  @ Mon, 22 Jul 2024 10:25:49: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:25:50: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:25:55: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:01: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:06: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:15: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:24: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:33: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:43: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:50: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:26:55: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:00: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:07: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:16: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:23: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:31: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:41: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:47: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:27:54: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:01: Processing 18M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:14: Processing 19M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:21: Processing 20M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:27: Processing 21M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:36: Processing 22M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:41: Processing 23M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:48: Processing 24M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:54: Processing 25M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:28:59: Processing 26M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:05: Processing 27M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:10: Processing 28M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:17: Processing 29M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:24: Processing 30M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:38: Processing 31M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:47: Processing 32M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:29:54: Processing 33M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:02: Processing 34M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:08: Processing 35M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:13: Processing 36M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:17: Processing 37M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:25: Processing 38M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:35: Processing 39M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:43: Processing 40M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:30:51: Processing 41M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:00: Processing 42M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:06: Processing 43M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:11: Processing 44M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:19: Processing 45M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:29: Processing 46M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:35: Processing 47M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:44: Processing 48M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:53: Processing 49M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:31:59: Processing 50M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:05: Processing 51M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:11: Processing 52M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:19: Processing 53M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:27: Processing 54M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:34: Processing 55M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:42: Processing 56M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:49: Processing 57M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:32:58: Processing 58M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:09: Processing 59M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:15: Processing 60M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Total: 60120685. 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Mapped: 26212927. 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5094726_SRR8279891.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5094726_SRR8279891.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:33:16: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 10:33:18: Read length:50 
+INFO  @ Mon, 22 Jul 2024 10:33:18: Total tested reads: 100001, mapped: 81871(0.8187018129818702) 
+INFO  @ Mon, 22 Jul 2024 10:33:18: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 23	11308	0.1381197249331265 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 25	10977	0.13407677932357 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 28	10633	0.1298750473305566 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 26	10343	0.1263328895457488 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 24	10030	0.12250980200559416 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 29	9856	0.12038450733470948 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 22	9456	0.11549877245911251 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 30	8027	0.09804448461604232 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 27	584	0.007133172918371585 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 21	549	0.006705671116756849 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 20	76	0.0009282896263634254 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 19	23	0.0002809297553468261 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 18	5	6.107168594496219e-05 
+INFO  @ Mon, 22 Jul 2024 10:33:18: 17	4	4.885734875596976e-05 
+INFO  @ Mon, 22 Jul 2024 10:33:18: Auto determination of trim5 results: 23,25,28,26,24,29 
+INFO  @ Mon, 22 Jul 2024 10:33:18: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:33:18: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:24: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:28: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:36: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:42: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:47: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:33:55: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:04: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:14: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:20: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:25: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:31: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:36: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:42: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:46: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:34:54: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:00: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:07: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:14: Processing 18M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:26: Processing 19M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:31: Processing 20M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:36: Processing 21M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:42: Processing 22M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:48: Processing 23M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:52: Processing 24M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:35:58: Processing 25M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:03: Processing 26M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:08: Processing 27M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:13: Processing 28M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:21: Processing 29M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:28: Processing 30M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:38: Processing 31M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:48: Processing 32M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:36:58: Processing 33M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:03: Processing 34M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:08: Processing 35M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:14: Processing 36M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:19: Processing 37M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:24: Processing 38M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:29: Processing 39M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:35: Processing 40M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:43: Processing 41M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:51: Processing 42M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:37:57: Processing 43M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:04: Processing 44M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:11: Processing 45M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:16: Processing 46M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:24: Processing 47M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:29: Processing 48M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:34: Processing 49M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:40: Processing 50M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:46: Processing 51M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:38:56: Processing 52M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:01: Processing 53M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:12: Processing 54M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:18: Processing 55M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:26: Processing 56M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:33: Processing 57M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:38: Processing 58M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:44: Processing 59M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:53: Processing 60M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:39:58: Processing 61M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:04: Processing 62M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:09: Processing 63M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:15: Processing 64M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:23: Processing 65M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:31: Processing 66M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:39: Processing 67M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:43: Processing 68M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:52: Processing 69M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:40:58: Processing 70M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:05: Processing 71M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:12: Processing 72M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:16: Processing 73M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:22: Processing 74M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:31: Processing 75M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:40: Processing 76M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:46: Processing 77M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:41:58: Processing 78M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:05: Processing 79M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:14: Processing 80M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:21: Processing 81M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:32: Processing 82M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:42: Processing 83M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:48: Processing 84M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:53: Processing 85M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:42:59: Processing 86M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:06: Processing 87M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:12: Processing 88M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:19: Processing 89M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:26: Processing 90M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:35: Processing 91M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:41: Processing 92M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:47: Processing 93M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:43:58: Processing 94M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:03: Processing 95M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:16: Processing 96M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:22: Processing 97M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:27: Processing 98M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:32: Processing 99M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:33: Total: 99121522. 
+INFO  @ Mon, 22 Jul 2024 10:44:33: Mapped: 59364221. 
+INFO  @ Mon, 22 Jul 2024 10:44:33: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5095821_SRR8281054.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:44:33: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5095821_SRR8281054.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:44:33: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:44:34: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 10:44:35: Read length:50 
+INFO  @ Mon, 22 Jul 2024 10:44:35: Total tested reads: 100001, mapped: 82047(0.8204617953820462) 
+INFO  @ Mon, 22 Jul 2024 10:44:35: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 23	11208	0.13660462905407875 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 25	11007	0.1341548137043402 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 28	10743	0.1309371457822955 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 24	10221	0.12457493875461625 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 26	10058	0.12258827257547503 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 29	10054	0.12253952003120162 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 22	9384	0.11437346886540642 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 30	8232	0.10033273611466599 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 21	502	0.006118444306312236 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 27	495	0.006033127353833778 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 20	105	0.001279754287176862 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 19	18	0.00021938644923031922 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 18	7	8.531695247845747e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 17	5	6.0940680341755334e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 13	3	3.65644082050532e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 16	2	2.4376272136702135e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 15	1	1.2188136068351067e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 12	1	1.2188136068351067e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: 14	1	1.2188136068351067e-05 
+INFO  @ Mon, 22 Jul 2024 10:44:35: Auto determination of trim5 results: 23,25,28,24,26,29 
+INFO  @ Mon, 22 Jul 2024 10:44:35: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:44:36: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:44: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:44:51: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:02: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:08: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:20: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:25: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:30: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:35: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:40: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:46: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:51: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:45:57: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:02: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:14: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:23: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:34: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:40: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:46: Processing 18M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:52: Processing 19M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:46:59: Processing 20M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:03: Processing 21M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:07: Processing 22M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:13: Processing 23M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:18: Processing 24M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:24: Processing 25M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:31: Processing 26M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:40: Processing 27M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:46: Processing 28M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:47:55: Processing 29M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:03: Processing 30M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:10: Processing 31M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:17: Processing 32M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:21: Processing 33M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:28: Processing 34M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:34: Processing 35M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:40: Processing 36M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:46: Processing 37M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:51: Processing 38M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:48:56: Processing 39M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:04: Processing 40M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:10: Processing 41M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:15: Processing 42M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:21: Processing 43M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:28: Processing 44M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:39: Processing 45M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:44: Processing 46M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:50: Processing 47M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:49:58: Processing 48M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:05: Processing 49M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:10: Processing 50M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:16: Processing 51M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:22: Processing 52M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:29: Processing 53M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:34: Processing 54M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:40: Processing 55M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:50:49: Processing 56M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:01: Processing 57M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:10: Processing 58M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:18: Processing 59M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:22: Processing 60M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:29: Processing 61M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:34: Processing 62M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:41: Processing 63M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:51:51: Processing 64M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:02: Processing 65M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:07: Processing 66M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:12: Processing 67M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:19: Processing 68M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:23: Processing 69M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:28: Processing 70M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:32: Processing 71M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:37: Processing 72M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:46: Processing 73M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:52:57: Processing 74M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:06: Processing 75M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:17: Processing 76M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:22: Processing 77M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:28: Processing 78M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:34: Processing 79M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:41: Processing 80M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:47: Processing 81M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:53:53: Processing 82M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:01: Processing 83M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:11: Processing 84M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:18: Processing 85M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:26: Processing 86M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:37: Processing 87M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:43: Processing 88M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:49: Processing 89M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:54:58: Processing 90M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:05: Processing 91M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:10: Processing 92M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:14: Processing 93M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:18: Total: 93622486. 
+INFO  @ Mon, 22 Jul 2024 10:55:18: Mapped: 56299961. 
+INFO  @ Mon, 22 Jul 2024 10:55:19: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112341_SRR8297836.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:55:19: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112341_SRR8297836.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 10:55:19: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:55:19: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 10:55:26: Read length:50 
+INFO  @ Mon, 22 Jul 2024 10:55:26: Total tested reads: 100001, mapped: 79704(0.7970320296797032) 
+INFO  @ Mon, 22 Jul 2024 10:55:26: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 23	10721	0.13451018769446954 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 25	10542	0.13226437819933756 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 28	10212	0.12812405901836796 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 24	10143	0.1272583559168925 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 26	9823	0.12324350095352805 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 29	9744	0.12225233363444746 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 22	9381	0.11769798253538091 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 30	8028	0.1007226738934056 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 27	521	0.006536685737227743 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 21	475	0.005959550336244103 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 20	79	0.0009911673190805981 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 19	16	0.00020074274816822243 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 17	8	0.00010037137408411121 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 18	4	5.018568704205561e-05 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 12	3	3.7639265281541705e-05 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 16	2	2.5092843521027803e-05 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 14	1	1.2546421760513902e-05 
+INFO  @ Mon, 22 Jul 2024 10:55:26: 4	1	1.2546421760513902e-05 
+INFO  @ Mon, 22 Jul 2024 10:55:26: Auto determination of trim5 results: 23,25,28,24,26,29 
+INFO  @ Mon, 22 Jul 2024 10:55:26: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 10:55:28: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:36: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:41: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:46: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:51: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:55:57: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:02: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:06: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:13: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:18: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:28: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:35: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:41: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:50: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:56:59: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:08: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:15: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:20: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:25: Processing 18M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:30: Processing 19M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:38: Processing 20M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:46: Processing 21M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:52: Processing 22M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:57:58: Processing 23M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:06: Processing 24M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:12: Processing 25M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:16: Processing 26M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:21: Processing 27M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:27: Processing 28M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:32: Processing 29M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:36: Processing 30M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:45: Processing 31M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:51: Processing 32M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:58:56: Processing 33M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:03: Processing 34M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:12: Processing 35M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:18: Processing 36M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:22: Processing 37M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:27: Processing 38M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:34: Processing 39M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:39: Processing 40M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:45: Processing 41M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:49: Processing 42M reads .. 
+INFO  @ Mon, 22 Jul 2024 10:59:54: Processing 43M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:04: Processing 44M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:14: Processing 45M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:19: Processing 46M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:23: Processing 47M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:30: Processing 48M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:38: Processing 49M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:42: Processing 50M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:47: Processing 51M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:53: Processing 52M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:00:59: Processing 53M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:06: Processing 54M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:16: Processing 55M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:25: Processing 56M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:32: Processing 57M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:37: Processing 58M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:42: Processing 59M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:46: Processing 60M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:51: Processing 61M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:01:55: Processing 62M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:00: Processing 63M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Total: 63209854. 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Mapped: 39021941. 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112342_SRR8297839.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112342_SRR8297839.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:02:01: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 11:02:03: Read length:50 
+INFO  @ Mon, 22 Jul 2024 11:02:03: Total tested reads: 100001, mapped: 69860(0.6985930140698593) 
+INFO  @ Mon, 22 Jul 2024 11:02:03: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 23	9929	0.1421271113655883 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 25	9423	0.13488405382192958 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 24	8922	0.1277125679931291 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 28	8539	0.12223017463498426 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 29	8412	0.12041225307758374 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 26	8386	0.12004008016032064 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 22	8201	0.11739192671056399 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 30	7022	0.10051531634697967 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 27	482	0.006899513312338964 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 21	444	0.0063555682794159745 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 20	71	0.0010163183509876896 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 19	16	0.0002290294875465216 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 18	8	0.0001145147437732608 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 16	3	4.2943028914972805e-05 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 14	1	1.43143429716576e-05 
+INFO  @ Mon, 22 Jul 2024 11:02:03: 15	1	1.43143429716576e-05 
+INFO  @ Mon, 22 Jul 2024 11:02:03: Auto determination of trim5 results: 23,25,24,28,29,26 
+INFO  @ Mon, 22 Jul 2024 11:02:03: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:02:03: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:11: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:19: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:31: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:42: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:48: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:53: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:02:57: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:02: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:07: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:11: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:17: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:22: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:30: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:39: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:46: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:03:53: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:01: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Total: 17391687. 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Mapped: 9384856. 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112343_SRR8297841.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112343_SRR8297841.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:04:03: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 11:04:04: Read length:50 
+INFO  @ Mon, 22 Jul 2024 11:04:04: Total tested reads: 100001, mapped: 78127(0.7812621873781262) 
+INFO  @ Mon, 22 Jul 2024 11:04:04: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 23	10941	0.1400412149448974 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 25	10391	0.1330013951642838 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 24	9976	0.1276895311480026 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 28	9593	0.12278725664622986 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 29	9522	0.12187847991091429 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 26	9450	0.12095690350327032 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 22	9071	0.11610582769081111 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 30	8022	0.1026789714183317 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 27	554	0.00709101846992717 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 21	499	0.006387036491865808 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 20	76	0.0009727750969575179 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 19	17	0.0002175944295826027 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 16	5	6.399836164194197e-05 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 18	5	6.399836164194197e-05 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 15	2	2.5599344656776785e-05 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 17	2	2.5599344656776785e-05 
+INFO  @ Mon, 22 Jul 2024 11:04:04: 14	1	1.2799672328388393e-05 
+INFO  @ Mon, 22 Jul 2024 11:04:04: Auto determination of trim5 results: 23,25,24,28,29,26 
+INFO  @ Mon, 22 Jul 2024 11:04:04: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:04:04: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:10: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:19: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:24: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:29: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:36: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:44: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:50: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:04:57: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:07: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:16: Processing 10M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:24: Processing 11M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:30: Processing 12M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:36: Processing 13M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:40: Processing 14M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:44: Processing 15M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:48: Processing 16M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:52: Processing 17M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:05:57: Processing 18M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:04: Processing 19M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:13: Processing 20M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:18: Processing 21M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:24: Total: 21589661. 
+INFO  @ Mon, 22 Jul 2024 11:06:24: Mapped: 13121340. 
+INFO  @ Mon, 22 Jul 2024 11:06:24: Parsing FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112499_SRR8297997.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:06:24: Determining the trim-5 length of FASTQ file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112499_SRR8297997.fastq.gz... 
+INFO  @ Mon, 22 Jul 2024 11:06:24: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:06:25: Processing 0M reads ... 
+INFO  @ Mon, 22 Jul 2024 11:06:29: Read length:50 
+INFO  @ Mon, 22 Jul 2024 11:06:29: Total tested reads: 100001, mapped: 86491(0.8649013509864901) 
+INFO  @ Mon, 22 Jul 2024 11:06:29: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 23	11939	0.13803748366882104 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 25	11129	0.12867234741186945 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 28	11117	0.1285336046525072 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 29	10788	0.12472974066665896 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 24	10539	0.12185082840989236 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 26	10516	0.12158490478778139 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 22	9946	0.11499462371807471 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 30	9183	0.10617289660195858 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 27	602	0.00696026176133933 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 21	599	0.006925576071498769 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 20	92	0.0010636944884438843 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 19	26	0.00030060931195153255 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 18	8	9.249517290816385e-05 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 16	4	4.6247586454081924e-05 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 15	1	1.1561896613520481e-05 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 17	1	1.1561896613520481e-05 
+INFO  @ Mon, 22 Jul 2024 11:06:29: 14	1	1.1561896613520481e-05 
+INFO  @ Mon, 22 Jul 2024 11:06:29: Auto determination of trim5 results: 23,25,28,29,24,26 
+INFO  @ Mon, 22 Jul 2024 11:06:29: Possible gRNA lengths:20 
+INFO  @ Mon, 22 Jul 2024 11:06:32: Processing 0M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:43: Processing 1M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:49: Processing 2M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:53: Processing 3M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:06:59: Processing 4M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:04: Processing 5M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:09: Processing 6M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:16: Processing 7M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:25: Processing 8M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:33: Processing 9M reads .. 
+INFO  @ Mon, 22 Jul 2024 11:07:42: Total: 9821128. 
+INFO  @ Mon, 22 Jul 2024 11:07:42: Mapped: 6554848. 
+WARNING @ Mon, 22 Jul 2024 11:07:53: Sample 4 has too many zero-count sgRNAs (0.3319290900765356), and median normalization may be unstable. Consider switching to total read count normalization. 
+WARNING @ Mon, 22 Jul 2024 11:07:53: Sample 5 has too many zero-count sgRNAs (0.30508275004906127), and median normalization may be unstable. Consider switching to total read count normalization. 
+INFO  @ Mon, 22 Jul 2024 11:07:53: Final size factor: 0.5475414316145485 0.2702326395941353 0.2847401533950475 0.4446591547181872 3.044711549818536 2.10927207562752 2.324395234016575 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112500_SRR8297998.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_pDNA 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	60120685 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	26212927 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	89 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.0569945660707869 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5094726_SRR8279891.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_RepA_Dropout_A375 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	99121522 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	59364221 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	418 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.07939469903051843 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5095821_SRR8281054.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_RepB_Dropout_A375 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	93622486 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	56299961 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	408 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.07950265559383884 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112341_SRR8297836.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_mod_tracr_RepA_Dropout_A375 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	63209854 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	39021941 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	1162 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.11007338955383772 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112342_SRR8297839.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_mod_tracr_RepB_Dropout_A375 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	17391687 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	9384856 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	25377 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.4312248216602613 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112343_SRR8297841.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_mod_tracr_RepC_Dropout_A375 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	21589661 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	13121340 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	23325 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.41624905914533183 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Summary of file /sfs/9/ws/qealk01-benchmarking/april_2024/data/fastq/SRX5112499_SRR8297997.fastq.gz: 
+INFO  @ Mon, 22 Jul 2024 11:07:55: label	Brunello_mod_tracr_pDNA 
+INFO  @ Mon, 22 Jul 2024 11:07:55: reads	9821128 
+INFO  @ Mon, 22 Jul 2024 11:07:55: mappedreads	6554848 
+INFO  @ Mon, 22 Jul 2024 11:07:55: totalsgrnas	76441 
+INFO  @ Mon, 22 Jul 2024 11:07:55: zerosgrnas	17 
+INFO  @ Mon, 22 Jul 2024 11:07:55: giniindex	0.0814196475906972 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Loading Rnw template file: /nfsmounts/home/qealk01/miniforge3/envs/mageck-vispr/lib/python3.7/site-packages/mageck/count_report.Rmd. 
+INFO  @ Mon, 22 Jul 2024 11:07:55: Loading Rnw template file: /nfsmounts/home/qealk01/miniforge3/envs/mageck-vispr/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 

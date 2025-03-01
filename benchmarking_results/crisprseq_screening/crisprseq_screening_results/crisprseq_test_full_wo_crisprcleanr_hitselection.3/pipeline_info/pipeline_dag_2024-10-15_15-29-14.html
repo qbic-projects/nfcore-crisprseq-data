@@ -1,0 +1,188 @@
+<!--
+  ~ Copyright 2013-2024, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+flowchart TB
+    subgraph " "
+    v16["channel.fromSamplesheet"]
+    v32["Channel.fromPath"]
+    v33["Channel.fromPath"]
+    v35["Channel.fromPath"]
+    v43[" "]
+    v59["Channel.fromPath"]
+    v62["Channel.fromPath"]
+    v64["Channel.fromPath"]
+    v78["hit_selection_iteration_nb"]
+    v86["mle_control_sgrna"]
+    v90["hit_selection_iteration_nb"]
+    v112["Channel.of"]
+    v115["Channel.fromPath"]
+    v118["ch_workflow_summary"]
+    v122["ch_methods_description"]
+    end
+    subgraph " "
+    v18["template"]
+    v19["reference"]
+    v20["protospacer"]
+    v23["reads_targeted"]
+    v38[" "]
+    v45["ch_cutadapt"]
+    v51[" "]
+    v52[" "]
+    v53[" "]
+    v67[" "]
+    v76[" "]
+    v80[" "]
+    v81[" "]
+    v82[" "]
+    v88[" "]
+    v92[" "]
+    v93[" "]
+    v94[" "]
+    v97[" "]
+    v98[" "]
+    v99[" "]
+    v100[" "]
+    v104[" "]
+    v106[" "]
+    v107[" "]
+    v130[" "]
+    v131[" "]
+    v132[" "]
+    v134["multiqc_report"]
+    end
+    subgraph NFCORE_CRISPRSEQ
+    subgraph CRISPRSEQ_SCREENING
+    v37([FASTQC])
+    v50([MAGECK_COUNT])
+    v66([BAGEL2_FC])
+    v69([BAGEL2_BF])
+    v73([BAGEL2_PR])
+    v75([BAGEL2_GRAPH])
+    v79([HITSELECTION_BAGEL2])
+    v84([MATRICESCREATION])
+    v87([MAGECK_MLE])
+    v91([HITSELECTION_MLE])
+    v96([MAGECK_FLUTEMLE_CONTRASTS])
+    v105([VENNDIAGRAM])
+    v129([MULTIQC])
+    v17(( ))
+    v34(( ))
+    v36(( ))
+    v39(( ))
+    v58(( ))
+    v63(( ))
+    v102(( ))
+    v126(( ))
+    v127(( ))
+    v128(( ))
+    v133(( ))
+    end
+    end
+    v16 --> v17
+    v17 --> v18
+    v17 --> v19
+    v17 --> v20
+    v17 --> v23
+    v32 --> v50
+    v33 --> v34
+    v35 --> v36
+    v17 --> v37
+    v37 --> v38
+    v37 --> v39
+    v43 --> v17
+    v17 --> v45
+    v17 --> v50
+    v50 --> v53
+    v50 --> v52
+    v50 --> v51
+    v50 --> v39
+    v50 --> v58
+    v59 --> v58
+    v62 --> v63
+    v64 --> v63
+    v58 --> v66
+    v66 --> v69
+    v66 --> v67
+    v66 --> v39
+    v63 --> v69
+    v69 --> v39
+    v69 --> v63
+    v63 --> v73
+    v73 --> v75
+    v73 --> v79
+    v73 --> v39
+    v73 --> v102
+    v75 --> v76
+    v75 --> v39
+    v78 --> v79
+    v34 --> v79
+    v36 --> v79
+    v79 --> v82
+    v79 --> v81
+    v79 --> v80
+    v79 --> v39
+    v58 --> v84
+    v84 --> v58
+    v86 --> v87
+    v58 --> v87
+    v87 --> v91
+    v87 --> v88
+    v87 --> v96
+    v87 --> v39
+    v87 --> v102
+    v90 --> v91
+    v34 --> v91
+    v36 --> v91
+    v91 --> v94
+    v91 --> v93
+    v91 --> v92
+    v91 --> v39
+    v96 --> v100
+    v96 --> v99
+    v96 --> v98
+    v96 --> v97
+    v96 --> v39
+    v102 --> v104
+    v102 --> v105
+    v105 --> v107
+    v105 --> v106
+    v105 --> v39
+    v112 --> v39
+    v115 --> v126
+    v118 --> v39
+    v122 --> v39
+    v39 --> v129
+    v126 --> v129
+    v127 --> v129
+    v128 --> v129
+    v129 --> v132
+    v129 --> v131
+    v129 --> v130
+    v129 --> v133
+    v133 --> v134
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>

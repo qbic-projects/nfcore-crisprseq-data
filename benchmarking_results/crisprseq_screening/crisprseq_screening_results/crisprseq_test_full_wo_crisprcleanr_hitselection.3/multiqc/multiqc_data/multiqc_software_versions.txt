@@ -1,0 +1,13 @@
+Sample	python	BAGEL2	pandas	matplotlib.pyplot	fastqc	igraph	dplyr	ggplot2	mageck	MAGeCKFlute	clusterProfiler	pathview	ggvenn	nf-core/crisprseq	Nextflow
+BAGEL2_BF	3.11.4	2.0													
+BAGEL2_FC	3.11.4	2.0													
+BAGEL2_GRAPH			2.0.3	3.7.2											
+BAGEL2_PR	3.11.4	2.0													
+FastQC					0.12.1										
+HITSELECTION_BAGEL2						2.0.3	1.1.4	3.5.1							
+HITSELECTION_MLE						2.0.3	1.1.4	3.5.1							
+MAGECK_COUNT									0.5.9.5						
+MAGECK_FLUTEMLE_CONTRASTS								3.4.0		2.2.0	4.6.0	1.38.0			
+MAGECK_MLE									0.5.9.5						
+VENNDIAGRAM													0.1.9		
+Workflow														2.3.0	24.4.2

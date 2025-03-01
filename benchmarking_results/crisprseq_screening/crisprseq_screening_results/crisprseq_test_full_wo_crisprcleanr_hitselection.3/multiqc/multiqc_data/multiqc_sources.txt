@@ -1,0 +1,8 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Brunello_RepA_Dropout_A375	/scratch/12356658/nxf.Ls4pku3Usu/9/Brunello_RepA_Dropout_A375_fastqc.zip
+FastQC	all_sections	Brunello_mod_tracr_pDNA	/scratch/12356658/nxf.Ls4pku3Usu/3/Brunello_mod_tracr_pDNA_fastqc.zip
+FastQC	all_sections	Brunello_mod_tracr_RepA_Dropout_A375	/scratch/12356658/nxf.Ls4pku3Usu/4/Brunello_mod_tracr_RepA_Dropout_A375_fastqc.zip
+FastQC	all_sections	Brunello_mod_tracr_RepB_Dropout_A375	/scratch/12356658/nxf.Ls4pku3Usu/6/Brunello_mod_tracr_RepB_Dropout_A375_fastqc.zip
+FastQC	all_sections	Brunello_pDNA	/scratch/12356658/nxf.Ls4pku3Usu/10/Brunello_pDNA_fastqc.zip
+FastQC	all_sections	Brunello_mod_tracr_RepC_Dropout_A375	/scratch/12356658/nxf.Ls4pku3Usu/5/Brunello_mod_tracr_RepC_Dropout_A375_fastqc.zip
+FastQC	all_sections	Brunello_RepB_Dropout_A375	/scratch/12356658/nxf.Ls4pku3Usu/8/Brunello_RepB_Dropout_A375_fastqc.zip

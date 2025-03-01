@@ -1,0 +1,4 @@
+Samples	baseline	Brunello_RepA_Dropout_A375_Brunello_RepB_Dropout_A375_vs_Brunello_pDNA
+Brunello_pDNA	1	0
+Brunello_RepA_Dropout_A375	1	1
+Brunello_RepB_Dropout_A375	1	1

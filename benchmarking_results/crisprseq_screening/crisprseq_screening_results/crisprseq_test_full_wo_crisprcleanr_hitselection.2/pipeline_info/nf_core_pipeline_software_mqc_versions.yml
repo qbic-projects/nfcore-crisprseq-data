@@ -1,0 +1,36 @@
+BAGEL2_BF:
+  python: 3.11.4
+  BAGEL2: 2.0
+BAGEL2_FC:
+  python: 3.11.4
+  BAGEL2: 2.0
+BAGEL2_GRAPH:
+  pandas: 2.0.3
+  matplotlib.pyplot: 3.7.2
+BAGEL2_PR:
+  python: 3.11.4
+  BAGEL2: 2.0
+FASTQC:
+  fastqc: 0.12.1
+HITSELECTION_BAGEL2:
+  igraph: 2.0.3
+  dplyr: 1.1.4
+  ggplot2: 3.5.1
+HITSELECTION_MLE:
+  igraph: 2.0.3
+  dplyr: 1.1.4
+  ggplot2: 3.5.1
+MAGECK_COUNT:
+  mageck: 0.5.9.5
+MAGECK_FLUTEMLE_CONTRASTS:
+  MAGeCKFlute: 2.2.0
+  ggplot2: 3.4.0
+  clusterProfiler: 4.6.0
+  pathview: 1.38.0
+MAGECK_MLE:
+  mageck: 0.5.9.5
+VENNDIAGRAM:
+  ggvenn: 0.1.9
+Workflow:
+    nf-core/crisprseq: v2.3.0
+    Nextflow: 24.04.2
