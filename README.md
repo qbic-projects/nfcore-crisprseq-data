@@ -1,5 +1,7 @@
 # nf-core/crisprseq data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15519430.svg)](https://doi.org/10.5281/zenodo.15519430)
+
 This repository contains the scripts and data used in the nf-core/crisprseq publication.
 
 ## Benchmarking of resources
