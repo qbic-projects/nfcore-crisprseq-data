@@ -120,7 +120,7 @@ indel_boxplot <- ggplot(indel_all, aes(x=expected_percent, y=percent, color=anal
   scale_y_continuous(breaks = c(0, 20, 40, 60, 80, 100)) +
   theme(legend.position="top") +
   labs(x="Expected indel percentage", y="Detected indel percentage") +
-  scale_color_manual(name = "Analysis pipeline", labels = c("crispr-a", "crisprseq"), values = c("#d582f5", "#fcc555")) +
+  scale_color_manual(name = "Analysis pipeline", labels = c("CRISPR-A", "nf-core/crisprseq"), values = c("#d582f5", "#fcc555")) +
   facet_grid(~origin_run, scales = "fixed") +
   theme(
     panel.spacing = unit(1, "lines"), # Adjust spacing between panels
